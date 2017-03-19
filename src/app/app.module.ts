@@ -4,6 +4,11 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { SampleModule } from 'angular2-library-example';
+
+export function createConfig(): string {
+  return 'Config injection successful!';
+}
 
 @NgModule({
   declarations: [
@@ -12,7 +17,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    SampleModule.forRoot(createConfig)
   ],
   providers: [],
   bootstrap: [AppComponent]
