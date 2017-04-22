@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.2.
 
+## Blog Post
+
+To follow how this project was created, please refer to the associated blog post:
+
+http://dbarnes.me/writing-an-aot-compliant-angular-library/
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
